@@ -1,0 +1,51 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.row{
+    
+     display: flex;
+}
+h1{
+    font-size: 30px;
+    color: blueviolet;  
+}
+
+
+.box1{
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 50px;
+    border: 2px solid black;
+    display: flex;  
+}
+
+.box2{
+    margin-top: 50px;
+    margin-right: 200px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    display: inline-flex;
+    
+}
+.box1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
+    display: flex;
+}
+.box2 img{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
